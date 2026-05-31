@@ -106,7 +106,9 @@ USE employeemanagementsystem;
 ```sql
 CREATE TABLE login(
     username VARCHAR(50),
-    password VARCHAR(50)
+    password VARCHAR(50),
+    security_question VARCHAR(100),
+    answer VARCHAR(100)
 );
 ```
 
